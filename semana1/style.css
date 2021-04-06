@@ -1,0 +1,42 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background:rgb(235, 220, 192)  ;
+    color:black
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(235, 220, 192);
+}
+img {
+    height: 30px;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.teste{
+    font-size: 40px;
+    text-align: center;
+   
+}
+.funcionarios{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.pagina-inicial{
+    background: rgb(235, 220, 192);
+    width: 100%;
+}
+
+.add-produto {
+    font-weight:bolder;
+    font-size: 30px;
+   
+}
