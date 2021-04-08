@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funcionários</title>
+    <title>Histórico de Vendas</title>
 </head>
 <body>
     <div class="header">
         <h1>Bem-vind@ a <em>Loja do Zun</em>!</h1>
         <p>Os melhores equipamentos para seu pc!</p>
     </div>
-   
-    
+
     <div class="header">
         <a href="index.html">Página Inicial</a>
         <a href="ctrl-estoque.html">Controle de Estoque</a>
@@ -22,14 +21,35 @@
         <a href="pagina-de-vendas.html">Carrinho</a>
         <a href="pagina-de-historico-vendas.html">Histórico de Vendas</a>
     </div>
+   
+       <h2>Veja aqui o seu histórico de vendas!</h2>
 
-    <h2 class="teste">Funcionários</h2>
-    <ul class="funcionarios">
-        <li>João</li>
-        <li>Pedro</li>
-        <li>Maria</li>
-    </ul>
-    <!-- Crie uma lista de funcionários usando as tags que você aprendeu hoje abaixo \/ -->
+   
+<table>
+    <tr>
+        <th>Horário da Venda</th>
+        <th>Vendedor</th>
+        <th>Valor total da compra</th>
+        <th>Forma de Pagamento</th>
+    </tr>
+
+    <tr>
+        <td>18h</td>
+        <td>João</td>
+        <td>R$100,00</td>
+        <td>Cartão</td>
+    </tr>
+
+</table>
+   
+
+
+    <div>
+        <label for="descricao">Data da compra </label>
+        
+        <input type="text" id="data-compra" name="data da compra">
+    </div>
+
     <div class="footer">
         <p>Siga-nos nas redes sociais!</p>
         
@@ -37,6 +57,6 @@
             <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
             <img src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
         
-    </div> 
+    </div>
 </body>
-</html>
+</body>
