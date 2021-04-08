@@ -136,6 +136,10 @@ td button {
     background-color: #635a3d
 }
 
-img {
+#produtos img{
     width:50px
+}
+
+.icone {
+    width: 30px
 }
