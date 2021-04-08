@@ -124,6 +124,12 @@ td button:hover {
     margin-top: 20px;
     height: 100px;
 }
+#pesquisa {
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-width: 4px;
+}
 
 
 #back-button {
