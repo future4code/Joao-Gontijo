@@ -55,6 +55,7 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+    
 }
 
 .icone {
@@ -71,10 +72,15 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    text-align: ;
 }
 
 #container-de-descricao>ol {
-    padding: 15px 0px;
+    padding: 20px 0px;
+}
+
+#texto-de-descricao {
+    padding: 30px 0px;
 }
 
 #container-para-comprar {
@@ -86,8 +92,6 @@ div img {
     padding: 100px 0;
     font-size: 60px;
 }
-
-
 /**
   *
   *  ESTILOS COMPRAR 
