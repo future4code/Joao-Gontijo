@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: orange;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding:10px;
+}
+
+main {
+    display:grid;
+    grid-template-rows: repeat (4, 1fr);
+    grid-template-columns:repeat (4, 1fr); ;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.videos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+ 
+
+}
+
+footer {
+    display: flex;
+    height: 10%;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
