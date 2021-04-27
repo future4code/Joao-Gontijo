@@ -50,3 +50,11 @@
 // const emailUsuario = prompt ("Escreva seu Email:")
 
 // console.log ("O e-mail " + emailUsuario + " foi cadastrado com sucesso. Seja bem-vinda(o) " + nomeUsuario  )
+
+
+let idadeAnos= Number(prompt('Quantos anos você tem?'))
+let idadeMeses = Number (prompt('Quantos meses você tem?'))
+let idadeDia = Number(prompt('Quantos dias você tem?'))
+let idadeEmDias = (idadeAnos * 365 + idadeMeses*30 + idadeDia)
+
+console.log ('Sua idade em dias é=' + idadeEmDias)
