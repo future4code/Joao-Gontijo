@@ -40,36 +40,82 @@ function retornaNumerosPares (array) {
 
 function retornaMaiorNumero(array) {
    // implemente sua lógica aqui
+ let numeroMaior = [] 
+ for (let x of array) {
+    if (numeroMaior < x) {
+       numeroMaior = x
+    }
+ }
+ return numeroMaior
 }
+
 
 //Exercício 5
 
 function retornaQuantidadeElementos (array) {
    // implemente sua lógica aqui
+   return array.length
 }
 
 //Exercício 6
 
 function retornaExpressoesBooleanas() {
    // implemente sua lógica aqui
+   return [false, false, true, true, true]
 }
 
 //Exercício 7
 
 function retornaNNumerosPares(n) {
    // implemente sua lógica aqui
+   let numeroN = [];
+   for (let i = 0; numeroN.length < n; i++) {
+      if (i% 2 === 0 ){
+         numeroN.push(i)
+      }
+   }
+   return numeroN
 }
 
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
   // implemente sua lógica aqui
+  if (a === b && b === c) {
+     return "Equilátero"
+  } else if (a !== b && b !== c) {
+     return 'Escaleno'
+  } else {
+     return "Isósceles"
+  }
+  
 }
 
 // Exercício 9
 
 function comparaDoisNumeros(num1, num2) {
    // implemente sua lógica aqui
+   let numeroMaior;
+   let numeroMenor;
+   let divisaoExata;
+
+   if (num1 > num2) {
+      numeroMaior = num1;
+      numeroMenor = num2;
+   } else{
+      numeroMaior = num2;
+      numeroMenor = num1;
+   }
+   divisaoExata = numeroMaior % numeroMenor === 0;
+   
+   const diferenca= numeroMaior - numeroMenor;
+   return {
+     numeroMaior: numeroMaior,
+     divisaoExata: divisaoExata,
+     diferenca: diferenca 
+
+   }
+
 }
 
 // Exercício 10
