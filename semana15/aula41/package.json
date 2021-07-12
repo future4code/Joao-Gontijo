@@ -1,0 +1,11 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "Primeira aula backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Joao Gontijo",
+  "license": "ISC"
+}

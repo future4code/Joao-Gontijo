@@ -1,0 +1,11 @@
+{
+  "name": "exercicio2",
+  "version": "1.0.0",
+  "description": "Exercicio 2",
+  "main": "Exercicio2.js",
+  "scripts": {
+    "test": "node ./Exercicio2.js"
+  },
+  "author": "João Gontijo",
+  "license": "ISC"
+}
