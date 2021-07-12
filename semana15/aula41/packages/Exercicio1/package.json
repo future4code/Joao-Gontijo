@@ -7,5 +7,8 @@
     "start": "node ./exercicio1.js"
   },
   "author": "João Gontijo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

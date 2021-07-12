@@ -4,8 +4,11 @@
   "description": "Exercicio 2",
   "main": "Exercicio2.js",
   "scripts": {
-    "test": "node ./Exercicio2.js"
+    "start": "node ./Exercicio2.js"
   },
   "author": "João Gontijo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

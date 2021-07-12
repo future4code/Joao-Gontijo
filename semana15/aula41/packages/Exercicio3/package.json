@@ -4,7 +4,7 @@
   "description": "Exercicio 3",
   "main": "Exercicio3.js",
   "scripts": {
-    "test": "node ./exercicio3.js"
+    "start": "node ./exercicio3.js"
   },
   "author": "João Gontijo",
   "license": "ISC"
