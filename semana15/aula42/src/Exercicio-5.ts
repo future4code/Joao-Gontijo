@@ -14,4 +14,4 @@ const fazContas = (num1: number, num2: number) => {
 
 }
 
-fazContas(15, 20)
+fazContas(15, 20) 
