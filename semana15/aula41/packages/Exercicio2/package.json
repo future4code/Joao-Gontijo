@@ -1,0 +1,14 @@
+{
+  "name": "exercicio2",
+  "version": "1.0.0",
+  "description": "Exercicio 2",
+  "main": "Exercicio2.js",
+  "scripts": {
+    "start": "node ./Exercicio2.js"
+  },
+  "author": "João Gontijo",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}

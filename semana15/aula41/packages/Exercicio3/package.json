@@ -1,0 +1,11 @@
+{
+  "name": "exercicio3",
+  "version": "1.0.0",
+  "description": "Exercicio 3",
+  "main": "Exercicio3.js",
+  "scripts": {
+    "start": "node ./exercicio3.js"
+  },
+  "author": "João Gontijo",
+  "license": "ISC"
+}
