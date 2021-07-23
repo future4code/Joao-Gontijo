@@ -1,0 +1,24 @@
+GET http://localhost:3003/users/001
+
+###
+
+GET http://localhost:3003/actors/Tony Ramos
+
+###
+
+GET http://localhost:3003/users?gender=female
+
+###
+
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{   
+    "id": "001",
+    "salary": 55000
+}
+
+###
+
+DELETE http://localhost:3003/actor/004
+Content-Type: application/json
