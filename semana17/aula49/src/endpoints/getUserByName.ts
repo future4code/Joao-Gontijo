@@ -5,7 +5,13 @@ import selectUserByName from "../data/selectUserByName";
 
 export const getUserByName = async(req: Request,res: Response): Promise<void> =>{
     try {
-       const users = await selectUserByName(req.query.name as string|| "%")
+       const name = req.query.name
+      if (typeof name !== "string") {
+         res.statusCode = 500
+         throw new Error ("Deu ruim")
+      }
+       const users = await selectUserByName(name|| "%")
+      
  
        if(!users.length){
           res.statusCode = 404
