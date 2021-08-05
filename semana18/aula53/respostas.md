@@ -12,3 +12,11 @@ B) 2 vezes, porque foi chamada 1x na classe User e 1x na classe Customer
 A) Não seria possível, porque ela é privada à classe user
 
 ### Polimorfismo
+
+### Exercício 1
+A) Imprimiu tudo, porque na interface tudo é publico
+
+### Exercício 2
+A) O Typescript gerou o erro "cannot create an instance of an abstract class"
+
+B) retirar o abstract ou então criar uma nova classe que extende a classe abstrata.
