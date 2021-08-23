@@ -1,24 +1,41 @@
-GET http://localhost:3003/users/001
+GET http://localhost:3003/actors?gender=male
 
 ###
 
-GET http://localhost:3003/actors/Tony Ramos
+GET http://localhost:3003/actors/001
+
 
 ###
 
-GET http://localhost:3003/users?gender=female
-
-###
-
-POST http://localhost:3003/users
+PUT http://localhost:3003/actors
 Content-Type: application/json
 
 {   
     "id": "001",
-    "salary": 55000
+    "salary": 6545000
 }
 
 ###
 
-DELETE http://localhost:3003/actor/004
+DELETE http://localhost:3003/actors/1629490623879
+
+
+###
+
+POST http://localhost:3003/movies
 Content-Type: application/json
+
+{
+    "name":"Parasita",
+    "sinopse": "Filme coreano bem loco",
+    "data_de_lancamento": "2019-01-01",
+    "playing_limit_date": "2020-01-01"
+}
+
+###
+
+GET http://localhost:3003/movies/all
+
+###
+
+GET http://localhost:3003/movies/search?query=Do

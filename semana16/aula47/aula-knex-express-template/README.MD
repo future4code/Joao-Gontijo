@@ -6,38 +6,31 @@ Como os dados que queremos estão na primeira posição do arrya, precisamos peg
 b) A função é 
 
 ```
-app.get ('/users/:name', async (req, res) => {
-    try {
-        const name = req.params.name
-        const result = await connection.raw (`
-        SELECT * FROM Actor WHERE name = '${name}'
-        `)
-
-        res.status(200).send(result[0])
-        console.log(result[0])
-    } catch (error) {
-        res.status(400).send(error.sqlMessage || error.message)
-    }
-})
+const selectActorByName = async(name: string): Promise<any> => {
+   const result = await connection ("Actor")
+    .where('name', name) 
+    return result
+}
 ```
 
 C) A função é:
 
 ```
-app.get('/actorGenders/:gender', async (req, res) => {
-    try {
-        const gender = req.params.gender
-        const result = await connection.raw (`
-        SELECT COUNT(*) as count FROM Actor WHERE gender = "${gender}"
-        `)
-        const count = result[0][0]
-        res.status(200).send(count)
-        console.log(count)
-        
-    } catch (error) {
-        res.status(400).send(error.sqlMessage || error.message)
-    }
-})
+//RAW:
+const countByGender = async(gender: string): Promise<any> => {
+    const result = await connection.raw(`
+        SELECT COUNT(*) AS count FROM Actor WHERE gender = '${gender}'
+    `)
+    return result[0][0].count
+}
+//Query Builder:
+const countByGender = async(gender: string): Promise<any> => {
+    const result = await connection('Actor')
+    .count('* as count')
+    .where('gender', gender )
+    const count = result[0].count
+    return count
+}
 ```
 
 ### EXERCÍCIO 2
