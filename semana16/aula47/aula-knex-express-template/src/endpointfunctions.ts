@@ -1,6 +1,8 @@
 import connection from "./connection"
 import app from "./app"
 
+
+
 //2 A) 
 
  export const updateActor = async (id: string, salary: number): Promise <any> => {

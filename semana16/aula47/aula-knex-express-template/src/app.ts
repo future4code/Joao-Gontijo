@@ -12,7 +12,7 @@ const server = app.listen(process.env.PORT || 3003, () => {
     const address = server.address() as AddressInfo;
     console.log(`Server is running in http://localhost:${address.port}`);
   } else {
-    console.error(`Failure upon starting server.`);
+    console.error(`Deu ruim no servidor rsrsrs`);
   }
 });
 
