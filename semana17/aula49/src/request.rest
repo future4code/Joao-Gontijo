@@ -1,0 +1,9 @@
+GET http://localhost:3003/users?name=&type=CX&sort=name&order=DESC&page=1
+
+###
+
+GET http://localhost:3003/users?name=a&sort=id&
+
+###
+
+GET http://localhost:3003/users?page=4
