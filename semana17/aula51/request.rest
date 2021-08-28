@@ -1,1 +1,12 @@
-GET http://localhost:3003/
+GET http://localhost:3003/address
+
+###
+
+POST http://localhost:3003/address
+Content-Type: application/json
+
+{
+    "nome": "Bolsa de cocô",
+    "cep": "70150-903",
+    "numero": 1
+}
