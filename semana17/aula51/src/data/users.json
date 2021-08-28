@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "nome": "AA",
+        "cep": "05424-150",
+        "logradouro": "Rua Pais Leme",
+        "numero": 25,
+        "complemento": "lado ímpar",
+        "bairro": "Pinheiros",
+        "localidade": "São Paulo",
+        "uf": "SP"
+     }
+]
