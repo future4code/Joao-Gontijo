@@ -1,7 +1,7 @@
 import app from "./app"
 import createUser from "./endpoints/createUser"
-import { getAllAdresses } from "./endpoints/getAllAdresses"
+import { getAllAddresses } from "./endpoints/getAllAdresses"
 
 
-app.get ('/address', getAllAdresses)
+app.get ('/address', getAllAddresses)
 app.post('/address', createUser)
