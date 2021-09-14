@@ -1,0 +1,11 @@
+GET http://localhost:3003/?pagina=2
+
+###
+
+GET http://localhost:3003/pokemons/charmander2
+
+###
+GET http://localhost:3003/pokemons?tipo=fire
+
+###
+GET http://localhost:3003/pokemons/geracao/7?pagina=2
